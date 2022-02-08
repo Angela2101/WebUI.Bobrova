@@ -22,6 +22,7 @@ public class TestForAddItemDoubleItemAndDecoration {
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://happy-sushi.ru/");
 
+
         driver.findElement(By.xpath(".//form[@id='ms_form_147']/button")).click();
 
         t.sleep(10000);
